@@ -1,0 +1,22 @@
+# CLI modules - these functions are called via command dispatcher
+lib/taskbeam/cli/commands/auth.ex:39:8:unused_fun
+lib/taskbeam/cli/commands/projects.ex:30:8:unused_fun  
+lib/taskbeam/cli/commands/tasks.ex:54:8:unused_fun
+lib/taskbeam/cli/commands/tasks.ex:60:8:unused_fun
+lib/taskbeam/cli/commands/tasks.ex:68:8:unused_fun
+lib/taskbeam/cli/commands/tasks.ex:78:8:unused_fun
+lib/taskbeam/cli/commands/labels.ex:30:8:unused_fun
+lib/taskbeam/cli/main.ex:125:8:unused_fun
+lib/taskbeam/cli/main.ex:155:8:unused_fun
+
+# CLI entry points - these are expected to halt/exit
+lib/taskbeam/cli/commands/auth.ex:8:7:no_return
+lib/taskbeam/cli/commands/labels.ex:8:7:no_return
+lib/taskbeam/cli/commands/labels.ex:19:8:no_return
+lib/taskbeam/cli/commands/projects.ex:8:7:no_return
+lib/taskbeam/cli/commands/projects.ex:19:8:no_return
+lib/taskbeam/cli/commands/tasks.ex:8:7:no_return
+lib/taskbeam/cli/commands/tasks.ex:19:8:no_return
+lib/taskbeam/cli/helpers.ex:22:7:no_return
+lib/taskbeam/cli/main.ex:8:7:no_return
+lib/taskbeam/cli/main.ex:14:8:no_return

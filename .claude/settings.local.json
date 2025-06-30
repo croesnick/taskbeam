@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mix escript.build:*)",
+      "Bash(mix compile:*)",
+      "Bash(mix test)",
+      "Bash(mix credo:*)",
+      "Bash(mix format)",
+      "Bash(./taskbeam help:*)",
+      "Bash(mix docs:*)"
+    ],
+    "deny": []
+  }
+}
