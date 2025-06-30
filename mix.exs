@@ -48,10 +48,10 @@ defmodule Taskbeam.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:req, "~> 0.4.0"},
+      {:req, "~> 0.5.12"},
       {:jason, "~> 1.4"},
-      {:optimus, "~> 0.2.0"},
-      {:table_rex, "~> 4.0.0"},
+      {:optimus, "~> 0.5.1"},
+      {:table_rex, "~> 4.1.0"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.31", only: :dev, runtime: false}
