@@ -37,7 +37,7 @@ jobs:
         otp-version: ${{ matrix.otp }}
 
     - name: Cache deps
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: |
           deps
@@ -81,7 +81,7 @@ jobs:
         otp-version: '27'
 
     - name: Cache deps
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: |
           deps
@@ -91,7 +91,7 @@ jobs:
           ${{ runner.os }}-mix-1.18-27-
 
     - name: Cache Dialyzer PLTs
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: priv/plts
         key: ${{ runner.os }}-dialyzer-1.18-27-${{ hashFiles('**/mix.lock') }}
@@ -125,7 +125,7 @@ jobs:
         otp-version: '27'
 
     - name: Cache deps
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: |
           deps
